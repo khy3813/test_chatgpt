@@ -19,7 +19,7 @@ def main():
 
     # session_state 초기화
     if 'OPENAI_API' not in st.session_state:
-        st.session_state['OPENAI_API'] = ''
+        st.session_state['OPENAI_API'] = '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'
 
     with st.sidebar:
         open_apiKey = st.text_input(label='OPEN API 키', placeholder= 'Enter your api key')
